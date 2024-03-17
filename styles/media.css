@@ -1,0 +1,70 @@
+@media screen and (max-width: 760px){
+    body{
+        padding: 10px; 
+    }
+
+    header{
+        flex-direction: column;
+        align-items: center; /* Centraliza o cabeçalho */
+    }
+
+    #title h1{
+        margin-top: 10px; /*espaçamento entre os títulos */
+    }
+
+    ul li{
+        margin: 15px; /* Diminui a margem para a lista */
+    }
+
+    #inscreva-se-btn{
+        margin-top: 15px; 
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center; /* Centraliza o main */
+    }
+
+    h2{
+        font-size: 38px;
+        text-align: center; /* Centraliza o h2 */
+        margin-top: 20px; 
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input, form select {
+        width: 90%; /* Ajusta a largura para se adequar ao tamnho de celular */
+        margin-top: 15px; 
+    }
+
+    form [type="submit"]{
+        width: 90%; /* Ajusta o botão de envio */
+        margin-top: 20px; 
+    }
+
+    img{
+        display: none; /* esconder imagens grandes */
+    }
+
+    #equipe{
+        flex-direction: column; /* Organiza os membros da equipe em coluna */
+    }
+
+    .membro-equipe{
+        margin-bottom: 20px; 
+    }
+
+    .membro-equipe img{
+        width: 120px; /* Reduz o tamanho das imagens para se adequar a de celular */
+        height: 120px;
+    }
+
+    ul{
+        text-align: center;
+        padding: 0; 
+    }
+}
